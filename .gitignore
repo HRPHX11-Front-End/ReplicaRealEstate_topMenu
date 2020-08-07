@@ -22,8 +22,4 @@ coverage
 
 # Compiled Dirs (http://nodejs.org/api/addons.html)
 build/
-schema.sql
-dbindex.js
-svindex.js
-index.jsx
-app.jsx
+
