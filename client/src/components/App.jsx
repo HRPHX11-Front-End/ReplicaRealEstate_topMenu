@@ -1,6 +1,7 @@
 import React from 'react';
 import $ from 'jquery';
-import House from './House.jsx'
+import House from './House.jsx';
+import Topbar from './Topbar.jsx'
 
 class App extends React.Component {
   constructor(props) {
@@ -33,11 +34,9 @@ class App extends React.Component {
     return (
 
       <div>
-        <form>
-          <button style={{"border": "none", "backgroundColor" : "white", "color": "red"}}>RedFin</button>
-          <input placeholder="City,Address,School,Agent,ZIP" type="text"></input>
-          <input type="submit"></input>
-        </form>
+        <div>
+          <Topbar />
+        </div>
         <div>{house}</div>
       </div>
 

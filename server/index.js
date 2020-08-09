@@ -13,7 +13,13 @@ app.use(express.static(`${__dirname}/../client/dist`));
 
 app.get('/house', (req, res) => {
   console.log('House route is on!');
-  getHouses(res);
+  getHouses((err, result) => {
+    if (err) {
+      res.status(500).send(err);
+    } else {
+      res.status(200).send(result);
+    }
+  });
 });
 
 app.listen(port, () => {
