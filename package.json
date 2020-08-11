@@ -6,7 +6,9 @@
   "scripts": {
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js",
-    "build": "mysql -u root -p < schema.sql"
+    "build": "mysql -u root -p < schema.sql",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
   },
   "author": "me",
   "devDependencies": {
@@ -14,11 +16,15 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.11.1",
+    "css-loader": "^4.2.1",
+    "enzyme-adapter-react-16": "^1.15.3",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.8",
+    "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
@@ -26,10 +32,12 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "enzyme": "^3.11.0",
     "eslint": "^6.8.0",
     "express": "^4.17.1",
     "flexbox": "0.0.3",
     "flexbox-react": "^4.4.0",
+    "jest": "^26.3.0",
     "jquery": "^3.5.1",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.4",

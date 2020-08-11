@@ -1,10 +1,11 @@
 import React from 'react';
+import classes from '../css/styles.css';
 
 const menuOption = () => {
   console.log('Menu option is running');
   return (
     <div>
-      <button type="button" style={{ border: 'none', backgroundColor: 'white' }}>test</button>
+      <button type="button" className={classes.menuButton}>test</button>
     </div>
   );
 };

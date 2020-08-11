@@ -23,6 +23,14 @@
         "react"
     ],
     "rules": {
-        "no-console": 0
+        "no-console": 0,
+        "import/extensions": "off",
+        "no-constant-condition": "off",
+        "react/destructuring-assignment": "off",
+        "react/prop-types": "off"
     }
 }
+
+/*
+rules: { 'no-console': 'off', 'import/extensions': ['error', 'never', { jsx: 'always', },], },
+*/
