@@ -1,0 +1,119 @@
+/*General*/
+button:hover {
+  cursor: pointer;
+}
+/*TopBar Component*/
+.redfinLogo {
+  border: none;
+  background-image: url('http://phxpublicmarket.com/openair/wp-content/uploads/2013/10/Redfin-PNG-Logo-Large-1024x353.png');
+  background-color: white;
+  color: red;
+  padding-left: 0%;
+}
+.menuButton {
+  color: darkslategrey;
+  border: white;
+  background-color: white;
+  padding-top: 10px;
+}
+.menuButton:focus {
+  outline: none;
+  color: black;
+}
+.topSearchBar {
+  border: 'none';
+  width: '40px';
+  height: '40px';
+  border-radius: '4px';
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: lightgreen;
+  padding: 10px;
+}
+.searchBtn {
+  color: white;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  background-color: #c82021;
+}
+.searchBtn:hover {
+  background: rgb(243, 47, 47);
+}
+/*House Component*/
+.violet {
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 1070px;
+  height: 103px;
+}
+.blue {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 1070px;
+}
+.socialBtnsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.socialBtns {
+  background-color: white;
+  width: 58px;
+  height: 52px;
+  border: none;
+  color: darkslategrey;
+}
+.socialBtns:hover {
+  background-color: lightgray;
+}
+.socialHeartBtn {
+  background-color: white;
+  width: 58px;
+  height: 52px;
+  border: none;
+  color: darkslategrey;
+}
+.socialHeartBtn:hover {
+  background-color: lightgray;
+}
+.socialHeartBtn:focus {
+  color: red;
+}
+.homeIcon {
+  color: white;
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  outline: white;
+  box-shadow: gray;
+}
+.statusBtn {
+  background-color: white;
+  border: none;
+}
+/*BottomBar Component*/
+.bottomBar {
+  background-color: plum;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: center;
+  padding-right: 150px;
+  padding-left: 150px;
+  width: 1070px;
+}

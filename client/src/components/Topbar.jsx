@@ -1,22 +1,45 @@
 import React from 'react';
-// import Flexbox from 'flexbox-react';
-// import MenuOption from './MenuOption.jsx'
+//import MenuOption from './MenuOption.jsx';
+import classes from '../css/styles.css';
 
-const Topbar = () => {
-  console.log('Is topbar working?');
-  return (
-    <form>
-      <button type="button" style={{ border: 'none', backgroundColor: 'white', color: 'red' }}>RedFin</button>
+const Topbar = () => (
+  <div className={classes.container}>
+    <form className={classes.topSearchBar}>
+      <button className={classes.redfinLogo} type="button">RedFin</button>
       <input placeholder="City,Address,School,Agent,ZIP" type="text" style={{ width: '250px', height: '33px' }} />
-      <input
-        type="submit"
-        style={{
-          backgroundColor: 'red', border: 'none', width: '40px', height: '40px', borderRadius: '4px',
-        }}
-        value="S"
-      />
+      <button type="submit" className={classes.searchBtn}>
+        <i className="fas fa-search" />
+      </button>
     </form>
-  );
-};
+    <div> </div>
+    <div> </div>
+    <div> </div>
+    <div> </div>
+    <div> </div>
+    <div> </div>
+    <button type="button" className={classes.menuButton}>1-844-759-7732 </button>
+    <button type="button" className={classes.menuButton}>
+      Buy
+      <i className="fas fa-sort-down" />
+    </button>
+    <button type="button" className={classes.menuButton}>
+      Sell
+      <i className="fas fa-sort-down" />
+    </button>
+    <button type="button" className={classes.menuButton}>
+      Mortgage
+      <i className="fas fa-sort-down" />
+    </button>
+    <button type="button" className={classes.menuButton}>Feed</button>
+    <button type="button" className={classes.menuButton}>Real Estate Agents</button>
+    <button type="button" className={classes.menuButton}>
+      My Redfin
+      <i className="fas fa-sort-down" />
+      <i class="far fa-user-circle"></i>
+    </button>
+  </div>
+);
 
 export default Topbar;
+
+//http://phxpublicmarket.com/openair/wp-content/uploads/2013/10/Redfin-PNG-Logo-Large-1024x353.png
