@@ -2,6 +2,14 @@
 button:hover {
   cursor: pointer;
 }
+body {
+  font-family: Libre Franklin;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.375;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 /*TopBar Component*/
 .container {
   display: flex;
@@ -140,7 +148,6 @@ button:hover {
 }
 .lilDataBoxR {
   font-size: 18px;
-  font-family: Libre Franklin;
   -webkit-font-smoothing: antialiased;
   font-weight: bold;
   display: flex;
@@ -149,7 +156,6 @@ button:hover {
 }
 .dataLabel {
   font-size: 14px;
-  font-family: Libre Franklin;
   -webkit-font-smoothing: antialiased;
   color: rgb(66, 66, 66);
   font-weight: normal;
