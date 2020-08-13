@@ -13,7 +13,6 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    console.log('Is this running?');
     $.get('/house', (result) => {
       console.log(result[0]);
     })

@@ -3,42 +3,48 @@ button:hover {
   cursor: pointer;
 }
 /*TopBar Component*/
-.redfinLogo {
-  border: none;
-  background-image: url('http://phxpublicmarket.com/openair/wp-content/uploads/2013/10/Redfin-PNG-Logo-Large-1024x353.png');
-  background-color: white;
-  color: red;
-  padding-left: 0%;
-}
-.menuButton {
-  color: darkslategrey;
-  border: white;
-  background-color: white;
-  padding-top: 10px;
-}
-.menuButton:focus {
-  outline: none;
-  color: black;
-}
-.topSearchBar {
-  border: 'none';
-  width: '40px';
-  height: '40px';
-  border-radius: '4px';
-}
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  background-color: lightgreen;
-  padding: 10px;
+  padding-bottom: 10px;
+}
+.redfinLogoBtn {
+  border: none;
+  background-color: white;
+  padding-left: 0%;
+}
+.redfinLogoBtn:focus {
+  outline: none;
+}
+.redfinLogoPic {
+  width: 125px;
+  height: 40px;
+}
+.redfinSearchContainer {
+  border: none;
+  width: '40px';
+  height: '40px';
+  border-radius: '4px';
+  display: flex;
+  flex-direction: row;
+}
+.searchInputBar {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(231, 231, 231);
+  width: 250px;
+  height: 35px;
+}
+.searchInputBar::placeholder {
+  color: #c4c4c4;
 }
 .searchBtn {
   color: white;
   font-size: 16px;
   width: 40px;
-  height: 40px;
+  height: 39px;
   border: none;
   border-radius: 0 2px 2px 0;
   background-color: #c82021;
@@ -46,27 +52,114 @@ button:hover {
 .searchBtn:hover {
   background: rgb(243, 47, 47);
 }
-/*House Component*/
-.violet {
-  background-color: palevioletred;
+.menuButtonBox {
   display: flex;
   flex-direction: row;
+  width: 700px;
   justify-content: space-evenly;
-  margin-left: 150px;
-  margin-right: 150px;
-  width: 1070px;
-  height: 103px;
 }
-.blue {
-  background-color: lightblue;
+.menuButton {
+  color: gray;
+  border: white;
+  background-color: white;
+}
+.menuButton:focus, .menuButton:hover {
+  outline: none;
+  color: black;
+}
+.accountLogo {
+  color: lightgray;
+  padding-top: 7px;
+  font-size: 26px;
+}
+/*House Component Pieces*/
+  /* Top */
+.topOfHouseDetails {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-left: 150px;
   margin-right: 150px;
-  width: 1070px;
+  padding-top: 20px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
+.homeBox {
+  display: flex;
+  flex-direction: row;
+}
+.homeIcon {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  width: 30px;
+  height: 32px;
+  line-height: 32px;
+  vertical-align: middle;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 4px;
+  box-shadow: 2px 1px 2px 1px #969696;
+}
+.houseAddress {
+  display: flex;
+  flex-direction: column;
+  padding-left: 7px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.biggerDataBox {
+  display: flex;
+  flex-direction: column;
+}
+.bigDataBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 260px;
+  height: 40px;
+  padding-bottom: 3px;
+}
+.lilDataBox {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: lightgray;
+  padding-right: 5px;
+}
+.sqFtBox {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+.lilDataBoxR {
+  font-size: 18px;
+  font-family: Libre Franklin;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.dataLabel {
+  font-size: 14px;
+  font-family: Libre Franklin;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(66, 66, 66);
+  font-weight: normal;
+}
+.socialBtnsBigBox {
+  display: flex;
+  flex-direction: column;
 }
 .socialBtnsContainer {
+  margin-left: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -74,18 +167,25 @@ button:hover {
 .socialBtns {
   background-color: white;
   width: 58px;
-  height: 52px;
-  border: none;
+  height: 40px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
   color: darkslategrey;
 }
 .socialBtns:hover {
   background-color: lightgray;
 }
+.socialBtns:focus {
+  outline: none;
+}
 .socialHeartBtn {
   background-color: white;
   width: 58px;
-  height: 52px;
-  border: none;
+  height: 40px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
   color: darkslategrey;
 }
 .socialHeartBtn:hover {
@@ -93,27 +193,58 @@ button:hover {
 }
 .socialHeartBtn:focus {
   color: red;
+  outline: none;
 }
-.homeIcon {
-  color: white;
-  font-size: 25px;
-  width: 35px;
-  height: 35px;
-  outline: white;
-  box-shadow: gray;
+/* Bottom */
+.socialBtnLabels {
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgb(66, 66, 66);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 170px;
 }
 .statusBtn {
+  font-size: 14px;
+  font-family: Libre Franklin;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(66, 66, 66);
+  font-weight: normal;
   background-color: white;
   border: none;
+  border-bottom-style: dotted;
+  border-bottom-width: 2px;
+  border-color: darkslategrey;
+}
+.statusBtn:focus {
+  outline: none;
+}
+.statusLabel {
+  font-size: 14px;
+  font-family: Libre Franklin;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(66, 66, 66);
+  font-weight: normal;
+}
+.middleBottomData {
+  font-size: 14px;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-left: 50px;
 }
 /*BottomBar Component*/
 .bottomBar {
-  background-color: plum;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-self: center;
-  padding-right: 150px;
-  padding-left: 150px;
-  width: 1070px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 10px;
 }

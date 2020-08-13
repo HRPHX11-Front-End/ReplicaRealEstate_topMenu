@@ -7,8 +7,7 @@
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js",
     "build": "mysql -u root -p < schema.sql",
-    "test": "jest",
-    "test:watch": "npm test -- --watch"
+    "test": "jest --update-snapshot --detectOpenHandles --coverage"
   },
   "author": "me",
   "devDependencies": {
@@ -24,6 +23,8 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.8",
+    "file-loader": "^6.0.0",
+    "image-webpack-loader": "^6.0.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"

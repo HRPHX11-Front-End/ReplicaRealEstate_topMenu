@@ -12,13 +12,10 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?/,
+        test: [/\.jsx?/, /\.js$/],
         include: SRC_DIR,
         use: {
           loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env', '@babel/preset-react'],
-          },
         },
       },
       {
@@ -33,6 +30,10 @@ module.exports = {
             },
           },
         ],
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loader: ['file-loader', 'image-webpack-loader'],
       },
     ],
   },
