@@ -3,7 +3,7 @@ button:hover {
   cursor: pointer;
 }
 body {
-  font-family: Libre Franklin;
+  font-family: 'Libre Franklin' !important;
   color: #333;
   font-size: 1rem;
   line-height: 1.375;
@@ -80,6 +80,33 @@ body {
   padding-top: 7px;
   font-size: 26px;
 }
+.dropMenuContents {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropMenuContents button {
+  border: none;
+  background-color: white;
+  color: #969696;
+  padding: 12px 16px;
+  text-align: left;
+}
+.menuButton:hover .dropMenuContents {
+  display: flex;
+  flex-direction: column;
+}
+.dropMenuContents button:hover {
+  background-color: rgb(236, 234, 234);
+}
+.dottedLine {
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
 /*House Component Pieces*/
   /* Top */
 .topOfHouseDetails {
@@ -92,6 +119,11 @@ body {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: lightgray;
+}
+.smallerHomeBox{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
 }
 .homeBox {
   display: flex;
@@ -229,6 +261,7 @@ body {
 }
 .statusLabel {
   font-size: 14px;
+  padding-left: 7px;
   font-family: Libre Franklin;
   -webkit-font-smoothing: antialiased;
   color: rgb(66, 66, 66);

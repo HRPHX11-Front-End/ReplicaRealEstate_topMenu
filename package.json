@@ -4,31 +4,37 @@
   "description": "> topSubMenu",
   "main": "index.js",
   "jest": {
-    "moduleNameMapper": { "^.+\\.(css|less)$": "<rootDir>/styleMock.js" }
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sss|styl)$": "<rootDir>/node_modules/jest-css-modules"
+    }
   },
-
   "scripts": {
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js",
     "build": "mysql -u root -p < schema.sql",
-    "test": "jest --update-snapshot --detectOpenHandles --coverage"
+    "test": "jest --update-snapshot --detectOpenHandles --coverage",
+    "testing": "jest --no-cache"
   },
   "author": "me",
   "devDependencies": {
     "@babel/core": "^7.11.1",
+    "@babel/plugin-syntax-jsx": "^7.10.4",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
+    "airbnb": "0.0.2",
     "babel-loader": "^8.1.0",
-    "babel-plugin-styled-components": "^1.11.1",
+    "babel-preset-airbnb": "^5.0.0",
     "css-loader": "^4.2.1",
-    "enzyme-adapter-react-16": "^1.15.3",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.8",
     "file-loader": "^6.0.0",
+    "identity-obj-proxy": "^3.0.0",
     "image-webpack-loader": "^6.0.0",
+    "jest": "^26.4.0",
+    "jest-environment-enzyme": "^7.1.2",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
@@ -38,11 +44,10 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.3",
     "eslint": "^6.8.0",
     "express": "^4.17.1",
-    "flexbox": "0.0.3",
-    "flexbox-react": "^4.4.0",
-    "jest": "^26.3.0",
+    "jest-css-modules": "^2.1.0",
     "jquery": "^3.5.1",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.4",
