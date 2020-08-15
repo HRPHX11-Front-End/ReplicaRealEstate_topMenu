@@ -1,5 +1,4 @@
 import React from 'react';
-// import classes from '../../../dist/css/styles.css';
 
 const SocialBtnBox = () => {
   const addFavorite = () => {

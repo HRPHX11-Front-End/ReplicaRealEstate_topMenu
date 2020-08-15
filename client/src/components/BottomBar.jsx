@@ -1,5 +1,4 @@
 import React from 'react';
-// import classes from '../../dist/css/styles.css';
 import BottomBarBtn from './BottomBarBtn.jsx';
 
 const BottomBar = () => {

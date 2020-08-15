@@ -1,6 +1,5 @@
 /* eslint-disable no-plusplus */
 import React from 'react';
-// import classes from '../../../dist/css/styles.css';
 
 const HomeBox = ({ houseData }) => {
   const getAddressFirstLine = () => {

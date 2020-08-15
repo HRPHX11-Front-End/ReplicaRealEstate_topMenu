@@ -24,12 +24,12 @@ INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBu
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 995000, 3, 2.75, 2575, 1004962, 1992, '3838 W 204th Ave Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'blue', 95000, 1, 1.5, 2500, 1004962, 1992, '123 W 100th Ave Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'green', 55000, 2, 2, 1575, 52962, 1992, '42 W Answer way Surprise, AZ 85374');
-INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 888000, 3, 2.75, 2433, 885962, 1992, '10 N Mugiwara Way W 204th Ave Surprise, AZ 85374');
+INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 888000, 3, 2.75, 2433, 885962, 1992, '10 N Mugiwara Way Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'green', 775000, 3, 2, 2001, 773564, 1992, '16682 E Shitte Creek Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 60000, 1, 1, 1324, 57000, 1992, '2424 W Holyis Ave Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'purple', 302000, 2, 1.5, 1678, 299894, 1992, '3824 W 567th Ave Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 1055000, 5, 3.75, 4890, 1025000, 1992, '5678 S Best Place Surprise, AZ 85374');
-INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'blue', 995777, 3, 2.75, 2000, 989747, 1992, '3237 S 100th Ave Surprise, AZ 85374');
+INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'green', 995777, 3, 2.75, 2000, 989747, 1992, '3237 S 100th Ave Surprise, AZ 85374');
 
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 998000, 3, 2.75, 2475, 1034962, 2001, '3282 Melville Street Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 995000, 3, 2.75, 2575, 1004962, 2001, '889 Dogwood Road Surprise, AZ 85374');
@@ -40,7 +40,7 @@ INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBu
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 60450, 1, 1, 1324, 57000, 2001, '75 Garfield St. Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'purple', 307850, 2, 1.5, 1678, 299894, 2001, '88 Nut Swamp Lane Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 1345700, 5, 3.75, 4890, 1025000, 2001, '506 Elizabeth Court Surprise, AZ 85374');
-INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'blue', 995677, 3, 2.75, 2000, 989747, 2001, '565 Kent Avenue Surprise, AZ 85374');
+INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'green', 995677, 3, 2.75, 2000, 989747, 2001, '565 Kent Avenue Surprise, AZ 85374');
 
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 912300, 3, 2.75, 2475, 1034962, 1999, '373 Old Birchwood Lane Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 997930, 3, 2.75, 2575, 1004962, 1999, '7403 Woodside Ave. Surprise, AZ 85374');
@@ -51,13 +51,13 @@ INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBu
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 60900, 1, 1, 1324, 57000, 1999, '7907 Bay Meadows Drive Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'purple', 302080, 2, 1.5, 1678, 299894, 1999, '20 South Linden Lane Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 1055777, 5, 3.75, 4890, 1025000, 1999, '68 Hilldale Court Surprise, AZ 85374');
-INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'blue', 995453, 3, 2.75, 2000, 989747, 1999, '641 W. Baker Rd. Surprise, AZ 85374');
+INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'green', 995453, 3, 2.75, 2000, 989747, 1999, '641 W. Baker Rd. Surprise, AZ 85374');
 
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 996540, 3, 2.75, 2475, 1034962, 2004, '8 Green Dr. Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 984732, 3, 2.75, 2575, 1004962, 2004, '293 Virginia Rd. Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'blue', 96754, 1, 1.5, 2500, 1004962, 2004, '658 Queen Drive Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'green', 32100, 2, 2, 1575, 52962, 2004, '396 Lafayette Court Surprise, AZ 85374');
-INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 887650, 3, 2.75, 2433, 885962, 2004, '59 Old York Rd. Surprise, AZ 85374');
+INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'green', 887650, 3, 2.75, 2433, 885962, 2004, '59 Old York Rd. Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'green', 123400, 3, 2, 2001, 773564, 2004, '7 Santa Clara St. Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 61110, 1, 1, 1324, 57000, 2004, '59 Lookout Drive Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'purple', 302098, 2, 1.5, 1678, 299894, 2004, '427 Anderson Lane Surprise, AZ 85374');
@@ -66,7 +66,7 @@ INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBu
 
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 998000, 3, 2.75, 2475, 1034962, 1990, '9506 North Joy Ridge Street. Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 995000, 3, 2.75, 2575, 1004962, 1990, '67 Canterbury Street Surprise, AZ 85374');
-INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'blue', 95000, 1, 1.5, 2500, 1004962, 1990, '4 South George Drive Surprise, AZ 85374');
+INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'green', 95000, 1, 1.5, 2500, 1004962, 1990, '4 South George Drive Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'green', 55000, 2, 2, 1575, 52962, 1990, '76 Madison Ave. Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'red', 888000, 3, 2.75, 2433, 885962, 1990, '5928 Rockwell Street Surprise, AZ 85374');
 INSERT INTO houses (hStatus, color, price, beds, baths, sqFeet, estimate, yearBuilt, pAddress) VALUES (true, 'green', 775000, 3, 2, 2001, 773564, 1990, '8648 Hillside Street Surprise, AZ 85374');
