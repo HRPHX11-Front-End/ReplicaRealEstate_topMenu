@@ -1,9 +1,11 @@
 /*General*/
+button {
+  padding-top: 7px;
+}
 button:hover {
   cursor: pointer;
 }
 body {
-  font-family: 'Libre Franklin' !important;
   color: #333;
   font-size: 1rem;
   line-height: 1.375;
@@ -70,10 +72,15 @@ body {
   color: gray;
   border: white;
   background-color: white;
+  padding-top: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial;
 }
 .menuButton:focus, .menuButton:hover {
   outline: none;
   color: black;
+  cursor: pointer;
 }
 .accountLogo {
   color: lightgray;
@@ -85,8 +92,10 @@ body {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 300px;
+  max-width: 300px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  white-space: normal;
 }
 .dropMenuContents button {
   border: none;
@@ -98,6 +107,8 @@ body {
 .menuButton:hover .dropMenuContents {
   display: flex;
   flex-direction: column;
+  flex-basis: 0;
+  overflow: auto;
 }
 .dropMenuContents button:hover {
   background-color: rgb(236, 234, 234);
@@ -115,7 +126,7 @@ body {
   justify-content: space-between;
   margin-left: 150px;
   margin-right: 150px;
-  padding-top: 20px;
+  padding-top: 30px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: lightgray;
