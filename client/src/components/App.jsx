@@ -1,6 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
-import House from './House.jsx';
+import House from './HouseComponents/House.jsx';
 import Topbar from './Topbar.jsx';
 import BottomBar from './BottomBar.jsx';
 
@@ -13,7 +13,6 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    console.log('Is this running?');
     $.get('/house', (result) => {
       console.log(result[0]);
     })

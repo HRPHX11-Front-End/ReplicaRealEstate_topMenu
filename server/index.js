@@ -12,7 +12,6 @@ app.use(bodyparser.urlencoded({ extended: true }));
 app.use(express.static(`${__dirname}/../client/dist`));
 
 app.get('/house', (req, res) => {
-  console.log('House route is on!');
   getHouses((err, result) => {
     if (err) {
       res.status(500).send(err);

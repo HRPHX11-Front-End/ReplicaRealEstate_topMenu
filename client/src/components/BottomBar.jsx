@@ -1,18 +1,15 @@
 import React from 'react';
 import classes from '../css/styles.css';
+import BottomBarBtn from './BottomBarBtn.jsx';
 
-const BottomBar = () => (
-  <div className={classes.bottomBar}>
-    <button className={classes.menuButton} type="button">Overview</button>
-    <button className={classes.menuButton} type="button">Property Details</button>
-    <button className={classes.menuButton} type="button">Property History</button>
-    <button className={classes.menuButton} type="button">Schools</button>
-    <button className={classes.menuButton} type="button">Tour Insights</button>
-    <button className={classes.menuButton} type="button">Public Facts</button>
-    <button className={classes.menuButton} type="button">Refin Estimate</button>
-    <button className={classes.menuButton} type="button">Neighborhood</button>
-    <button className={classes.menuButton} type="button">Similar Homes</button>
-  </div>
-);
+const BottomBar = () => {
+  const btnNamesArray = ['Overview', 'Property Details', 'Property History', 'Schools', 'Tour Insights', 'Public Facts', 'Redfin Estimate', 'Neighborhood', 'Similar Homes'];
+  const btnList = btnNamesArray.map((btnName) => <BottomBarBtn btnName={btnName} key={btnName} />);
+  return (
+    <div className={classes.bottomBar}>
+      {btnList}
+    </div>
+  );
+};
 
 export default BottomBar;
