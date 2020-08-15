@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../../dist/css/styles.css';
+// import classes from '../../../dist/css/styles.css';
 
 const DataBox = ({ houseData }) => {
   const daysSince = () => {
@@ -33,51 +33,51 @@ const DataBox = ({ houseData }) => {
     return `$${pricePerSqFt}`;
   };
   return (
-    <div className={classes.biggerDataBox}>
-      <div className={classes.bigDataBox}>
-        <div className={classes.lilDataBox}>
+    <div className="biggerDataBox">
+      <div className="bigDataBox">
+        <div className="lilDataBox">
           <div>
             {`$${houseData.price}`}
           </div>
-          <div className={classes.dataLabel}>
+          <div className="dataLabel">
             Price
           </div>
         </div>
-        <div className={classes.lilDataBox}>
+        <div className="lilDataBox">
           <div>
             {`${houseData.beds}`}
           </div>
-          <div className={classes.dataLabel}>
+          <div className="dataLabel">
             Beds
           </div>
         </div>
-        <div className={classes.lilDataBox}>
+        <div className="lilDataBox">
           <div>
             {`${houseData.baths}`}
           </div>
-          <div className={classes.dataLabel}>
+          <div className="dataLabel">
             Baths
           </div>
         </div>
-        <div className={classes.sqFtBox}>
-          <div className={classes.lilDataBoxR}>
+        <div className="sqFtBox">
+          <div className="lilDataBoxR">
             <div>
               {`${houseData.sqFeet}`}
             </div>
-            <div className={classes.dataLabel}>
+            <div className="dataLabel">
               Sq.Ft.
               <br />
             </div>
           </div>
-          <div className={classes.dataLabel}>
+          <div className="dataLabel">
             {getPricePerSqFt()}
             /Sq.Ft
           </div>
         </div>
       </div>
-      <div className={classes.middleBottomData}>
-        <div className={classes.dataLabel}>{`Year Built: ${houseData.yearBuilt}`}</div>
-        <div className={classes.dataLabel}>
+      <div className="middleBottomData">
+        <div className="dataLabel">{`Year Built: ${houseData.yearBuilt}`}</div>
+        <div className="dataLabel">
           On Redfin:
           {daysSince()}
         </div>
