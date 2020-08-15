@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../css/styles.css';
+import classes from '../../dist/css/styles.css';
 import Logo from '../../RedFin.png';
 import BuyDrop from './DropMenus/BuyDropMenu.jsx';
 import MortgageDrop from './DropMenus/MorgageDropMenu.jsx';

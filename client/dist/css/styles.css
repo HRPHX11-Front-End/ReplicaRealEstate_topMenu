@@ -85,8 +85,10 @@ body {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 300px;
+  max-width: 300px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  white-space: normal;
 }
 .dropMenuContents button {
   border: none;
@@ -98,6 +100,8 @@ body {
 .menuButton:hover .dropMenuContents {
   display: flex;
   flex-direction: column;
+  flex-basis: 0;
+  overflow: auto;
 }
 .dropMenuContents button:hover {
   background-color: rgb(236, 234, 234);
