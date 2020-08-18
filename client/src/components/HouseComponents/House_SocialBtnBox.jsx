@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart, faTimes, faShare } from '@fortawesome/free-solid-svg-icons';
 import classes from '../../css/styles.css';
 
 const SocialBtnBox = () => {
@@ -10,13 +12,13 @@ const SocialBtnBox = () => {
     <div className={classes.socialBtnsBigBox}>
       <div className={classes.socialBtnsContainer}>
         <button onClick={addFavorite} className={classes.socialHeartBtn} type="button">
-          <i className="far fa-heart fa-2x" />
+          <FontAwesomeIcon icon={faHeart} size="2x" />
         </button>
         <button className={classes.socialBtns} type="button">
-          <i className="fas fa-times fa-2x" />
+          <FontAwesomeIcon icon={faTimes} size="2x" />
         </button>
         <button className={classes.socialBtns} type="button">
-          <i className="fas fa-share fa-2x" />
+          <FontAwesomeIcon icon={faShare} size="2x" />
         </button>
       </div>
       <div className={classes.socialBtnLabels}>

@@ -4,7 +4,7 @@ import House from './HouseComponents/House.jsx';
 import Topbar from './Topbar.jsx';
 import BottomBar from './BottomBar.jsx';
 
-class App extends React.Component {
+class TopNavComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -42,4 +42,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default TopNavComponent;

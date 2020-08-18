@@ -1,5 +1,7 @@
 /* eslint-disable no-plusplus */
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 import classes from '../../css/styles.css';
 
 const HomeBox = ({ houseData }) => {
@@ -39,7 +41,7 @@ const HomeBox = ({ houseData }) => {
   return (
     <div className={classes.homeBox}>
       <div className={classes.homeIcon} style={{ backgroundColor: houseData.color }}>
-        <i className="fas fa-home" />
+        <FontAwesomeIcon icon={faHome} />
       </div>
       <div className={classes.smallerHomeBox}>
         <div className={classes.houseAddress}>
