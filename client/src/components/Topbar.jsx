@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch, faSortDown, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import Logo from '../../dist/assets/RedFin.png';
 import classes from '../css/styles.css';
 import BuyDrop from './DropMenus/BuyDropMenu.jsx';
@@ -14,35 +16,35 @@ const Topbar = () => (
       </button>
       <input placeholder="City,Address,School,Agent,ZIP" type="text" className={classes.searchInputBar} />
       <button type="submit" className={classes.searchBtn}>
-        <i className="fas fa-search" />
+        <FontAwesomeIcon icon={faSearch} />
       </button>
     </form>
     <div className={classes.menuButtonBox}>
       <button type="button" className={classes.menuButton}>1-844-759-7732 </button>
       <div className={classes.menuBtnsWithDrops}>
         Buy
-        <i className="fas fa-sort-down" />
+        <FontAwesomeIcon icon={faSortDown} />
         <BuyDrop />
       </div>
       <div type="button" className={classes.menuBtnsWithDrops}>
         Sell
-        <i className="fas fa-sort-down" />
+        <FontAwesomeIcon icon={faSortDown} />
         <SellDrop />
       </div>
       <div type="button" className={classes.menuBtnsWithDrops}>
         Mortgage
-        <i className="fas fa-sort-down" />
+        <FontAwesomeIcon icon={faSortDown} />
         <MortgageDrop />
       </div>
       <button type="button" className={classes.menuButton}>Feed</button>
       <button type="button" className={classes.menuButton}>Real Estate Agents</button>
       <div type="button" className={classes.menuBtnsWithDrops}>
         My Redfin
-        <i className="fas fa-sort-down" />
+        <FontAwesomeIcon icon={faSortDown} />
         <MyRedfinDrop />
       </div>
       <div className={classes.accountLogo}>
-        <i className="far fa-user-circle" />
+        <FontAwesomeIcon icon={faUserCircle} />
       </div>
     </div>
   </div>

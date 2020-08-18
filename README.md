@@ -17,7 +17,9 @@
 
 ## Usage
 
-> Some usage instructions
+> Script to seed DB : npm run build (password: Heiji231!)
+> Script to run webpack : npm run react-dev
+> Script to start server : npm run server-dev
 
 ## Requirements
 
