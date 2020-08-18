@@ -1,7 +1,8 @@
 import React from 'react';
+import classes from '../../css/styles.css';
 
 const BuyDropMenu = () => (
-  <div className="dropMenuContents">
+  <div className={classes.dropMenuContents}>
     <button type="button">Buy with Redfin</button>
     <button type="button">Affordability Calculator</button>
     <button type="button">Home Buying Guide</button>
