@@ -31,7 +31,3 @@
         "react/prop-types": "off"
     }
 }
-
-/*
-rules: { 'no-console': 'off', 'import/extensions': ['error', 'never', { jsx: 'always', },], },
-*/

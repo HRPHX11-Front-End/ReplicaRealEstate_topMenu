@@ -1,6 +1,8 @@
 module.exports = {
   projects: [
-    '<rootDir>/client/src/components/__tests__/setupTests.js',
-    // '<rootDir>/server/index.test.js',
+    '<rootDir>/client/src/__tests__/setupTests.js',
+  ],
+  testMatch: [
+    '<rootDir>/client/src/__tests__/setupTests.js',
   ],
 };

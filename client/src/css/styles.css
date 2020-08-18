@@ -19,11 +19,15 @@ body {
   flex-wrap: nowrap;
   justify-content: space-between;
   padding-bottom: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgrey;
 }
 .redfinLogoBtn {
   border: none;
   background-color: white;
   padding-left: 0%;
+  padding-top: 0%;
 }
 .redfinLogoBtn:focus {
   outline: none;
@@ -70,9 +74,8 @@ body {
 }
 .menuButton {
   color: gray;
-  border: white;
+  border: none;
   background-color: white;
-  padding-top: 20px;
   text-decoration: none;
   font-size: 14px;
   font-family: Arial;
@@ -82,10 +85,19 @@ body {
   color: black;
   cursor: pointer;
 }
-.accountLogo {
-  color: lightgray;
-  padding-top: 7px;
-  font-size: 26px;
+.menuBtnsWithDrops {
+  color: gray;
+  border: none;
+  background-color: white;
+  padding-top: 15px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial;
+}
+.menuBtnsWithDrops:focus, .menuBtnsWithDrops:hover {
+  outline: none;
+  color: black;
+  cursor: pointer;
 }
 .dropMenuContents {
   display: none;
@@ -104,7 +116,7 @@ body {
   padding: 12px 16px;
   text-align: left;
 }
-.menuButton:hover .dropMenuContents {
+.menuBtnsWithDrops:hover .dropMenuContents {
   display: flex;
   flex-direction: column;
   flex-basis: 0;
@@ -118,6 +130,11 @@ body {
   border-bottom-width: 1px;
   border-bottom-color: lightgray;
 }
+.accountLogo {
+  color: lightgray;
+  padding-top: 7px;
+  font-size: 26px;
+}
 /*House Component Pieces*/
   /* Top */
 .topOfHouseDetails {
@@ -126,7 +143,7 @@ body {
   justify-content: space-between;
   margin-left: 150px;
   margin-right: 150px;
-  padding-top: 30px;
+  padding-top: 10px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: lightgray;
