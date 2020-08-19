@@ -37,7 +37,7 @@ module.exports = {
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
-        loader: ['file-loader', 'image-webpack-loader'],
+        loader: 'url-loader?name=assets/[name].[ext]',
       },
     ],
   },

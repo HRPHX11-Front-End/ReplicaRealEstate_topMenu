@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyparser = require('body-parser');
+const cors = require('cors');
 const db = require('../database/index.js');
-const cors = require('cors')
 
 // eslint-disable-next-line prefer-destructuring
 const getHouses = db.getHouses;
