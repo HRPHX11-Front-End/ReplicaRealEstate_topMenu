@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faSortDown, faUserCircle } from '@fortawesome/free-solid-svg-icons';
-import Logo from '../../dist/assets/RedFin.png';
+import Logo from './assets/RedFin.png';
 import classes from '../css/styles.css';
 import BuyDrop from './DropMenus/BuyDropMenu.jsx';
 import MortgageDrop from './DropMenus/MorgageDropMenu.jsx';
